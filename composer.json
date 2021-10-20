@@ -1,0 +1,20 @@
+{
+  "name": "open-weather/open-weather",
+  "description": "Test Project",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rizwan Sarfraz",
+      "email": "rs.mahaar@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
